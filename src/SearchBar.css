@@ -1,0 +1,43 @@
+  
+html {
+    height: 100%;
+  }
+  
+
+  div#search * {
+    font-family: sans-serif;
+  }
+  
+  div#search {
+    align-items: center;
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+
+  div#search input {
+    border: solid #ccc;
+    border-width: 1px 0 1px 1px;
+    border-radius: 2px 0 0 2px;
+    flex: 1;
+    font-size: 16px;
+    font-weight: 200;
+    height: 22px;
+    width: 127.5px;
+    margin: 0;
+    padding: 5px;
+    -webkit-appearance: textfield;
+  }
+  
+
+  
+  @media all and (min-width: 500px) {
+    div#search label {
+      display: inline;
+    }  
+    div#search input::placeholder {
+      font: 18px;
+    }  
+  }
+  
